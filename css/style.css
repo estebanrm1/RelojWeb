@@ -2,22 +2,22 @@ body{
     min-height: 100vh;
     display:flex;
     flex-direction: column;
-}
-
-main {
-    text-shadow: 0 0 30px  rgb(252, 34, 34);
-    flex-grow: 1;
-}
-
-section{
     background: #000428;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: 'Rajdhani', sans-serif;
+}
+
+main {
+    flex-grow: 1;
     color: white;
     text-align: center;
-    text-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
 }
+
+section{
+    text-shadow: 0 0 15px rgb(69, 248, 46);
+}
+
 
 #date{
     font-size: 25px;
@@ -26,7 +26,7 @@ section{
 }
 
 #time{
-    font-size: 80px;
+    font-size: 50px;
     letter-spacing: 15px;
     font-weight: bold;
 }
